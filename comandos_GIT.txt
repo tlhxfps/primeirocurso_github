@@ -1,0 +1,21 @@
+-- Comandos GIT --
+
+1- git init // Cria a pasta .git oculta, ou seja, iniciar um projeto.
+
+// Comentario //
+// A branch master no git hub se chama main, houve apenas alteração na nomeclatura. //
+
+2- Criar um repositório no git hub e seguir os passos abaixo.
+
+- echo "# curso_git_1" >> README.md // Criar uma pasta README.md , porém pode ser qualquer outro arquivo, txt, html etc...
+- git init // Criar a pasta .git oculta.
+- git add README.md // Adicionando o primeiro arquivo, nesse caso está utilizando o README.md
+- git commit -m "first commit" // Primeiro Commit
+- git branch -M main // Criando a branch principal, nesse caso era master, porém agora é  main.
+- git remote add origin https://github.com/tlhxfps/curso_git_1.git // Local do remote correto.
+- git push -u origin main // Push na branch main/master.
+
+-- Outros comandos --
+- git remote -v // Mostra os remotes desse init.
+- git remote rm origin // remove o remote origin que existe.
+- git status // Verificar o status dos arquivos, commit, push etc...
