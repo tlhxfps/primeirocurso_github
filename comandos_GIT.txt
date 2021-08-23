@@ -22,8 +22,8 @@
 - git config --global user.email "you@example.com" // Ao executar o primeiro commit, aparece essas configurações, com isso é  necessario adicionar um e-mail.
 - git config --global user.name "Your Name" // mesma coisa do caso acima, porém nesse caso é necessario adicionar um nome.
 
-- git status // Monitora arquivos não monitorados e arquivos modificados.
-- git add exemplo.txt // adicionando arquivos para o repositório criado.
-- git add . // adicionando todos os arquivos da pasta.
+- git status // Monitora arquivos não monitorados, arquivos modificados, arquivos excluidos e criado.
+- git add exemplo.txt // adicionando arquivo exemplo.txt para o repositório criado.
+- git add . // adicionando todos os arquivos da pasta para o repositório.
 - git commit exemplo.txt -m "Enviando arquivo exemplo.txt" // Fazendo o commit do arquivo exemplo.txt
 - git commit -a -m "Enviando todos os commits" // Fazendo o commit de todos os arquivos que foram adicionados.
