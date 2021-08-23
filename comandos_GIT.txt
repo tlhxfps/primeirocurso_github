@@ -19,3 +19,11 @@
 - git remote -v // Mostra os remotes desse init.
 - git remote rm origin // remove o remote origin que existe.
 - git status // Verificar o status dos arquivos, commit, push etc...
+- git config --global user.email "you@example.com" // Ao executar o primeiro commit, aparece essas configurações, com isso é  necessario adicionar um e-mail.
+- git config --global user.name "Your Name" // mesma coisa do caso acima, porém nesse caso é necessario adicionar um nome.
+
+- git status // Monitora arquivos não monitorados e arquivos modificados.
+- git add exemplo.txt // adicionando arquivos para o repositório criado.
+- git add . // adicionando todos os arquivos da pasta.
+- git commit exemplo.txt -m "Enviando arquivo exemplo.txt" // Fazendo o commit do arquivo exemplo.txt
+- git commit -a -m "Enviando todos os commits" // Fazendo o commit de todos os arquivos que foram adicionados.
