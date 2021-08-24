@@ -27,3 +27,4 @@
 - git add . // adicionando todos os arquivos da pasta para o repositório.
 - git commit exemplo.txt -m "Enviando arquivo exemplo.txt" // Fazendo o commit do arquivo exemplo.txt
 - git commit -a -m "Enviando todos os commits" // Fazendo o commit de todos os arquivos que foram adicionados.
+- git push // Enviar os commites enviados.
