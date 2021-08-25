@@ -59,4 +59,6 @@ Obs: tomem cuidado ao fazer esse merge na master/main, caso seja um projeto pess
 - git stash // funciona como se fosse uma lixeira, exemplo: você faz alguma alteração nessa branch, com isso você vê que está fazendo algumas coisa erras, então você executa esse comando para que essa branch resent porém fique salva as alterações em outro local, sem perdelas.
 - git stash list // mostra a lista de stash criadas acima.
 - git stash apply <numero_da_lista_stash> // aplica as alterações do stash que você criou anteriormente.
-- git stash show -p <numero_da_lista_stash> // verifica quais foram as alterações dos arquivos nesse stash.
+- git stash show -p <numero_da_lista_stash> exemplo: git stash show -p 1 // verifica quais foram as alterações dos arquivos nesse stash.
+- git stash drop <numero_da_lista_stash> exemplo: git stash drop 1 // deleta apenas a stash informada no numero_da_lista_stash
+- git stash clear // exclui todas as stash criada.
