@@ -35,6 +35,8 @@
 - git mv // Renomear e alterar o local de arquivos. exemplo: git mv rodape.css css/rodape.css ou git mv roda_pe.css rodape.css
 - git checkout arquivo.css // Resenta as modificações desse arquivo, com isso ele deixa o arquivo conforme está o git.  
 
+- git reset --hard origin/main ou origin/master // reseta até o ultimo push, ou seja, todos os commites que enviei sem fazer o push não vão mais existir, pois irá retorna as configurações do ultimo push.
+
 -- Não comandos --
 
 - .gitignore // criar um arquivo chamado .gitignore e dentro dele incluir os arquivos ou pasta que não serão enviados para o github. exemplos:
