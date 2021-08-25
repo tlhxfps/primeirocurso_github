@@ -31,3 +31,4 @@
 - git pull // busca atualizações/inclusões e inclui na sua máquina.
 - git clone https://github.com/tlhxfps/curso_git_1.git . // comando que realiza o clone do projeto, o ponto no final apenas para criar na pasta informada.
 - git rm // remove arquivo desnecessário, em seguida é necessário enviar um git commit e git push.
+- git log // verificar os commits enviados.
