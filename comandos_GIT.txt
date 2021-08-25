@@ -57,3 +57,6 @@ Lembrando também, de sempre criar uma branch através da master/main, pois é l
 - git merge <nome_branch> // com esse comando você junta as alterações de uma branch para a que você está no momento, exemplo: possui 2 branch, uma branch_1 e outra branch_2, caso eu faça uma alteração na branch_1 e quero que a branch_2 tenha essa atualização eu faço o merge dentro da banche_2 utilizando o comando git merge branch_1.
 Obs: tomem cuidado ao fazer esse merge na master/main, caso seja um projeto pessoal ok, porém se for na empresa nunca fazer, pois precisa ser aprovado e testado antes.
 - git stash // funciona como se fosse uma lixeira, exemplo: você faz alguma alteração nessa branch, com isso você vê que está fazendo algumas coisa erras, então você executa esse comando para que essa branch resent porém fique salva as alterações em outro local, sem perdelas.
+- git stash list // mostra a lista de stash criadas acima.
+- git stash apply <numero_da_lista_stash> // aplica as alterações do stash que você criou anteriormente.
+- git stash show -p <numero_da_lista_stash> // verifica quais foram as alterações dos arquivos nesse stash.
