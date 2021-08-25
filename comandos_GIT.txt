@@ -46,3 +46,9 @@ d.txt
 pastateste/* --> ignora todos os arquivos dentro dessa pasta.
 
 -- Branches --
+
+- git branch // verifica quais branches possui
+- git branch <nome_branch> // cria uma nova branch, lembrando de sempre criar brach apartir da main/master.
+- git branch -d <nome_branch> ou git branch --delete <nome> // deleta uma branch, tomem cuidado, pois esse comando não é muito utilizado.
+- git checkout <nome_branch> // faz com que você troque de branch
+- git checkout -b <nova_branch> // faz com que você mude e crie uma nova branch.
