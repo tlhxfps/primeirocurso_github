@@ -33,3 +33,4 @@
 - git rm // remove arquivo desnecessário, em seguida é necessário enviar um git commit e git push.
 - git log // verificar os commits enviados.
 - git mv // Renomear e alterar o local de arquivos. exemplo: git mv rodape.css css/rodape.css ou git mv roda_pe.css rodape.css
+- git checkout arquivo.css // Resenta as modificações desse arquivo, com isso ele deixa o arquivo conforme está o git.  
