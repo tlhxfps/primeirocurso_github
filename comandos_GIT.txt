@@ -49,7 +49,8 @@ pastateste/* --> ignora todos os arquivos dentro dessa pasta.
 
 - git branch // verifica quais branches possui
 - git branch <nome_branch> // cria uma nova branch, lembrando de sempre criar brach apartir da main/master.
-- git branch -d <nome_branch> ou git branch --delete <nome> // deleta uma branch, tomem cuidado, pois esse comando não é muito utilizado.
+- git branch -D <nome_branch> ou git branch --delete <nome> // deleta uma branch, tomem cuidado, pois esse comando não é muito utilizado.
+- git push --set-upstream origin Branch_v1 // após criar uma branch através da main/master e fazer alguma alteração e enviar o commit, você precisa executar esse comando após o commit, sendo assim essa branch irá para o github.
 - git checkout <nome_branch> // faz com que você troque de branch
 - git checkout -b <nova_branch> // faz com que você mude e crie uma nova branch.
 OBS: Atenção, nunca mudar de branch antes de fazer o commit na branch que você está usando no momento, pois ao trocar de branch as alterações vão para que você trocou, não a anterior.
