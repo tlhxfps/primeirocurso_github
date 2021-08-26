@@ -66,3 +66,4 @@ Obs: tomem cuidado ao fazer esse merge na master/main, caso seja um projeto pess
 - git tag // lista as tags que possui na branch.
 - git show <nome_da_tag> // Esse comando você verifica as alterações feitas nessa tag.
 - git checkout <nome_da_tag> // você seleciona essa tag, com isso os arquivos alterados e salvados nessa tag irão ficar como o principal do seu projeto.
+obs: para você incluir essa tag na branch, você precisa utilizar o comando git merge dentro da master ou qualquer outra branch e colocar a versão, exemplo: git merge v1.0, assim é só enviar com o git push.
