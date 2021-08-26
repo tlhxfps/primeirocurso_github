@@ -72,3 +72,6 @@ obs: para você incluir essa tag na branch, você precisa utilizar o comando git
 - git push oring --tags // comando para enviar todas as tags que possui.
 
 -- compartilhamento e atualização --
+
+-git fetch -a // Atualiza todos os branch que possui no github / projeto de todos os dev's, sendo assim eu posso utilizar a branch dele para fazer alguma atualização do meu lado atráves do comando git checkout <nome_da_branch>, após fazer essas atualizações eu posso fazer o commit e o push.
+
