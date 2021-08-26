@@ -69,3 +69,5 @@ Obs: tomem cuidado ao fazer esse merge na master/main, caso seja um projeto pess
 obs: para você incluir essa tag na branch, você precisa utilizar o comando git merge dentro da master ou qualquer outra branch e colocar a versão, exemplo: git merge v1.0, assim é só enviar com o git push.
 - git push origin <nome_da_tag> // com esse comando você pode enviar a tag para o git hub, não necessariamente a branch, você consegue enviar apenas a tag para outros dev's.
 - git push oring --tags // comando para enviar todas as tags que possui.
+
+-- compartilhamento e atualização --
