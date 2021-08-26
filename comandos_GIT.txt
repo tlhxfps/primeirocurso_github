@@ -62,3 +62,5 @@ Obs: tomem cuidado ao fazer esse merge na master/main, caso seja um projeto pess
 - git stash show -p <numero_da_lista_stash> exemplo: git stash show -p 1 // verifica quais foram as alterações dos arquivos nesse stash.
 - git stash drop <numero_da_lista_stash> exemplo: git stash drop 1 // deleta apenas a stash informada no numero_da_lista_stash
 - git stash clear // exclui todas as stash criada.
+- git tag -a v1.0 -m "Primeira versão" // Esse comando serve para salvar versões de funcionalidade, exemplo, preciso incluir aglumas funcionalidades, inclui a primeira, porém n queria perde essa primeira funcionalidade, nesse caso eu utilizo esse comando para poder salvar e criar uma nova funcionalidade.
+- git tag // lista as tags que possui na branch.
