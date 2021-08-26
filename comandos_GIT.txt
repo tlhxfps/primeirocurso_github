@@ -64,3 +64,5 @@ Obs: tomem cuidado ao fazer esse merge na master/main, caso seja um projeto pess
 - git stash clear // exclui todas as stash criada.
 - git tag -a v1.0 -m "Primeira versão" // Esse comando serve para salvar versões de funcionalidade, exemplo, preciso incluir aglumas funcionalidades, inclui a primeira, porém n queria perde essa primeira funcionalidade, nesse caso eu utilizo esse comando para poder salvar e criar uma nova funcionalidade.
 - git tag // lista as tags que possui na branch.
+- git show <nome_da_tag> // Esse comando você verifica as alterações feitas nessa tag.
+- git checkout <nome_da_tag> // você seleciona essa tag, com isso os arquivos alterados e salvados nessa tag irão ficar como o principal do seu projeto.
