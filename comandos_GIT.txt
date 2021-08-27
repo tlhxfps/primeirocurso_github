@@ -79,3 +79,8 @@ obs: para você incluir essa tag na branch, você precisa utilizar o comando git
 -- Observações --
 
 Toda vez que um dev inicia uma tarefa de um projeto ele precisa fazer o git pull na master/main, pois é apartir da branch master que ele irá criar uma branch nova para iniciar uma tarefa nova.
+
+
+- git remote -v // Mostra os remotes desse init.
+- git remote rm origin // remove o remote origin que existe.
+- git remote add origin <url> // link do repositorio que você utiliza, com esse ele adiciona ao seu projeto.
