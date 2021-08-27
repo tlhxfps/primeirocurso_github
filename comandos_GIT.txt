@@ -84,3 +84,4 @@ Toda vez que um dev inicia uma tarefa de um projeto ele precisa fazer o git pull
 - git remote -v // Mostra os remotes desse init.
 - git remote rm origin // remove o remote origin que existe.
 - git remote add origin <url> // link do repositorio que você utiliza, com esse ele adiciona ao seu projeto.
+obs: nesse caso é utilizado apenas na hora de trocar a url do git.
