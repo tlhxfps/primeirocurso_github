@@ -36,6 +36,7 @@
 - git checkout arquivo.css // Resenta as modificações desse arquivo, com isso ele deixa o arquivo conforme está o git.  
 
 - git reset --hard origin/main ou origin/master // reseta até o ultimo push, ou seja, todos os commites que enviei sem fazer o push não vão mais existir, pois irá retorna as configurações do ultimo push.
+- git reset --hard <hash> // resentando apartir de uma hash informada.
 
 -- Não comandos --
 
@@ -107,3 +108,4 @@ lembrando que esse submodule você tem um outro repositorio e você consegue uti
 - git clean ou git clean -f // verificar e limpar os arquivos que não foram adicionados (git add <nome_arquivo> ou git add . (todos arquivos))
 - git gc // é uma abreviação dpara garbage collector e server para otimização de repositorio sem prejudicar o repositorio.
 - git fsck // Verificar integridade dos arquivos no repositorio.
+- git reflog // Mapear todos os seus passos no repositorio, até uma mudança de branch, já o git log apenas armazena os commits de um branch. lembrando que reflogs tem tempo de expiração, o mesmo é 30 dias.
