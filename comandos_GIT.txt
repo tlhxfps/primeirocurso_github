@@ -49,7 +49,8 @@ pastateste/* --> ignora todos os arquivos dentro dessa pasta.
 
 - git branch // verifica quais branches possui
 - git branch <nome_branch> // cria uma nova branch, lembrando de sempre criar brach apartir da main/master.
-- git branch -d <nome_branch> ou git branch --delete <nome> // deleta uma branch, tomem cuidado, pois esse comando não é muito utilizado.
+- git branch -D <nome_branch> ou git branch --delete <nome> // deleta uma branch, tomem cuidado, pois esse comando não é muito utilizado.
+- git push --set-upstream origin Branch_v1 // após criar uma branch através da main/master e fazer alguma alteração e enviar o commit, você precisa executar esse comando após o commit, sendo assim essa branch irá para o github.
 - git checkout <nome_branch> // faz com que você troque de branch
 - git checkout -b <nova_branch> // faz com que você mude e crie uma nova branch.
 OBS: Atenção, nunca mudar de branch antes de fazer o commit na branch que você está usando no momento, pois ao trocar de branch as alterações vão para que você trocou, não a anterior.
@@ -71,3 +72,37 @@ obs: para você incluir essa tag na branch, você precisa utilizar o comando git
 - git push oring --tags // comando para enviar todas as tags que possui.
 
 -- compartilhamento e atualização --
+
+- git fetch -a // Atualiza todos os branch que possui no github / projeto de todos os dev's, sendo assim eu posso utilizar a branch dele para fazer alguma atualização do meu lado atráves do comando git checkout <nome_da_branch>, após fazer essas atualizações eu posso fazer o commit e o push.
+- git fetch -o <nome_da_branch> // mesmo processo do comando acima, porém esse você coloca o nome da branch que você quer.
+
+-- Observações --
+
+Toda vez que um dev inicia uma tarefa de um projeto ele precisa fazer o git pull na master/main, pois é apartir da branch master que ele irá criar uma branch nova para iniciar uma tarefa nova.
+
+
+- git remote -v // Mostra os remotes desse init.
+- git remote rm origin // remove o remote origin que existe.
+- git remote add origin <url> // link do repositorio que você utiliza, com esse ele adiciona ao seu projeto.
+obs: nesse caso é utilizado apenas na hora de trocar a url do git.
+
+- git submodule // verifica os submódulos no seu projeto.
+- git submodule add <link_repositorio> // adiciona um submodule no projeto,
+lembrando que esse submodule você tem um outro repositorio e você consegue utilizar em seu repositorio atual, como usar comandos de commit,pull e push.
+- git push --recurse-submodules=on-demand // o push do submodule, precisa ser dessa forma.
+
+-- Análises e inspenção --
+
+- git show // irá mostrar as atualizações da branch que você está no momento.
+- git show <nome_da_tag> // da para você verificar as alterações da tag com a branch atual.
+
+- git diff // comando para comparar a branch com a branch que está no repositorio.
+- git diff <nome_da_branch> // mostrar as diferenças que possui entre a branch atual e a informada.
+- git diff HEAD:a.txt a.txt // mostra as diferenças de arquivo que está na sua máquina para a que está o github.
+- git shortlog // mostra o log resumidamente do repositorio, lembrando que esse comando não e definido por branch apenas para o repositorio todo.
+
+
+-- Administração de repositorio --
+
+- git clean ou git clean -f // verificar e limpar os arquivos que não foram adicionados (git add <nome_arquivo> ou git add . (todos arquivos))
+- git gc // é uma abreviação dpara garbage collector e server para otimização de repositorio sem prejudicar o repositorio.
