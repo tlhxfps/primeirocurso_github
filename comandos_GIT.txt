@@ -101,3 +101,8 @@ lembrando que esse submodule você tem um outro repositorio e você consegue uti
 - git diff HEAD:a.txt a.txt // mostra as diferenças de arquivo que está na sua máquina para a que está o github.
 - git shortlog // mostra o log resumidamente do repositorio, lembrando que esse comando não e definido por branch apenas para o repositorio todo.
 
+
+-- Administração de repositorio --
+
+- git clean ou git clean -f // verificar e limpar os arquivos que não foram adicionados (git add <nome_arquivo> ou git add . (todos arquivos))
+- git gc // é uma abreviação dpara garbage collector e server para otimização de repositorio sem prejudicar o repositorio.
