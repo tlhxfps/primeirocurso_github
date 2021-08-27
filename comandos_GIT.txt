@@ -106,3 +106,4 @@ lembrando que esse submodule você tem um outro repositorio e você consegue uti
 
 - git clean ou git clean -f // verificar e limpar os arquivos que não foram adicionados (git add <nome_arquivo> ou git add . (todos arquivos))
 - git gc // é uma abreviação dpara garbage collector e server para otimização de repositorio sem prejudicar o repositorio.
+- git fsck // Verificar integridade dos arquivos no repositorio.
