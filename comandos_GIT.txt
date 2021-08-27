@@ -109,3 +109,4 @@ lembrando que esse submodule você tem um outro repositorio e você consegue uti
 - git gc // é uma abreviação dpara garbage collector e server para otimização de repositorio sem prejudicar o repositorio.
 - git fsck // Verificar integridade dos arquivos no repositorio.
 - git reflog // Mapear todos os seus passos no repositorio, até uma mudança de branch, já o git log apenas armazena os commits de um branch. lembrando que reflogs tem tempo de expiração, o mesmo é 30 dias.
+- git archive --format zip --output master_files.zip <nome_da_branch> // Transformar o repositorio em zip, sendo assim o mesmo irá criar uma arquivo zip em seu projeto local.
