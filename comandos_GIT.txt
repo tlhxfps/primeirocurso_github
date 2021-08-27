@@ -88,4 +88,5 @@ obs: nesse caso é utilizado apenas na hora de trocar a url do git.
 
 - git submodule // verifica os submódulos no seu projeto.
 - git submodule add <link_repositorio> // adiciona um submodule no projeto,
-lembrando que esse submodule você cria um novo repositorio e você consegue utilizar em seu repositorio atual, como usar comandos de commit,pull e push.
+lembrando que esse submodule você tem um outro repositorio e você consegue utilizar em seu repositorio atual, como usar comandos de commit,pull e push.
+- git push --recurse-submodules=on-demand // o push do submodule, precisa ser dessa forma.
