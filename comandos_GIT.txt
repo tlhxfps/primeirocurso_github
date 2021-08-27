@@ -85,3 +85,7 @@ Toda vez que um dev inicia uma tarefa de um projeto ele precisa fazer o git pull
 - git remote rm origin // remove o remote origin que existe.
 - git remote add origin <url> // link do repositorio que você utiliza, com esse ele adiciona ao seu projeto.
 obs: nesse caso é utilizado apenas na hora de trocar a url do git.
+
+- git submodule // verifica os submódulos no seu projeto.
+- git submodule add <link_repositorio> // adiciona um submodule no projeto,
+lembrando que esse submodule você cria um novo repositorio e você consegue utilizar em seu repositorio atual, como usar comandos de commit,pull e push.
