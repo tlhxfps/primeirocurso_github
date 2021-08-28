@@ -126,3 +126,8 @@ Projects --> KANBAN - backlog, retorno qualidade, teste, homologado, finalizado.
 
 - # => h1, ## => h2, ### => h3 e assim por diante até o h6 ou seja ###### .
 
+-> Ênfase <-
+
+- Negrito: **teste** ou __texto__
+- Itálico: *texto* ou _texto_
+- Combinando os dois: _um **texto** combinado_
