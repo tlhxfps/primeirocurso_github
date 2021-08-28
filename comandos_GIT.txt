@@ -124,5 +124,5 @@ Projects --> KANBAN - backlog, retorno qualidade, teste, homologado, finalizado.
 
 -> Cabeçalhos (títulos)<-
 
-- # => h1, ## => h2, ### => h3 e assim por diante.
+- # => h1, ## => h2, ### => h3 e assim por diante até o h6 ou seja ###### .
 
