@@ -120,3 +120,9 @@ Exemplo: após fazer uma nova branch e atualizar o projeto ao enviar o push a br
 Actions -->
 Projects --> KANBAN - backlog, retorno qualidade, teste, homologado, finalizado.
 
+-- Markdown do básico ao avançado --
+
+-> Cabeçalhos (títulos)<-
+
+- # => h1, ## => h2, ### => h3 e assim por diante.
+
