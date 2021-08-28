@@ -131,3 +131,19 @@ Projects --> KANBAN - backlog, retorno qualidade, teste, homologado, finalizado.
 - Negrito: **teste** ou __texto__
 - Itálico: *texto* ou _texto_
 - Combinando os dois: _um **texto** combinado_
+
+-> Listas <-
+
+- Lista ordenadas: 1. item, 2. item, 3. item e assim a diante.
+- Listar não ordenadas: * item
+
+-> Imagens <-
+
+- inserir imagens: ![Texto alt](link imagem);
+obs: pode está no próprio repo ou ser externa.
+
+-> Links <- 
+
+- Inserir links: [Texto do link](link)
+obs: se for um link github pode ser inserir de forma direta:
+https://www.github.com
