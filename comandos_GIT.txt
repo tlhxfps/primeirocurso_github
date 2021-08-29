@@ -151,3 +151,15 @@ https://www.github.com
 -> Imagens e Links <- 
 
 - [![Logo do PHP](https://i.imgur.com/6TaOchz.png)](https://github.com/tlhxfps)
+
+-> Código - GitHub <-
+
+Sintaxe é: ```Linguagem
+Código
+```
+
+Exemplo: ```javascript
+function soma(a,b){
+    return a + b;
+}
+```
