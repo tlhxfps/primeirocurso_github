@@ -147,3 +147,7 @@ obs: pode está no próprio repo ou ser externa.
 - Inserir links: [Texto do link](link)
 obs: se for um link github pode ser inserir de forma direta:
 https://www.github.com
+
+-> Imagens e Links <- 
+
+- [![Logo do PHP](https://i.imgur.com/6TaOchz.png)](https://github.com/tlhxfps)
