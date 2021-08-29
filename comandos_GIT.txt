@@ -167,6 +167,6 @@ function soma(a,b){
 -> Task List <- 
 
 Sintaxe para tarefas concluídas: - [X] CSS do rodapé
-Para não concluídas: -[ ] CSS da página de contatos
+Para não concluídas: - [ ] CSS da página de contatos
 
 Esta sintaxe é do markdown especial do github.
